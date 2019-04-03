@@ -16,3 +16,5 @@ BenchmarkMedian/16-4                       50000             32538 ns/op
 ```
 
 Only input parameter is name of the file containing benchmark results. Script will generate a file called output.png with the plot.
+
+![alt text](https://raw.githubusercontent.com/juliobg/plot_go_benchmark/master/output.png)

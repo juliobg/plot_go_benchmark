@@ -8,7 +8,7 @@ parser.add_argument('filename', metavar='filename', nargs=1,
 
 args = parser.parse_args()
 
-values = pd.read_csv(args.filename[0], index_col = 0, usecols = [0, 1,2,3], sep='\s+', header=None, names=["index", "iterations", "time", "unit"])
+values = pd.read_csv(args.filename[0], index_col = 0, usecols = [0, 1, 2, 3], sep='\s+', header=None, names=["index", "iterations", "time", "unit"])
 
 values.dropna(inplace = True)
 
